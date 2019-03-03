@@ -5,8 +5,7 @@ import ReactMapboxGl from 'react-mapbox-gl'
 import { connect } from 'react-redux'
 
 const Map = ReactMapboxGl({
-  accessToken:
-    'pk.eyJ1IjoiYnRzZGF0YXZpc3VhbGlzYXRpb24iLCJhIjoiX3VZZWdoNCJ9.pz-apO3V61vdVAsT6D2tFw',
+  accessToken: process.env.REACT_APP_MAPBOX_TOKEN,
   maxZoom: 16,
   minZoom: 6,
 })
