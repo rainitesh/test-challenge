@@ -19,6 +19,7 @@ class App extends Component {
       <Container>
         <MenuBar />
         <MapLayer />
+        <PopupOverlay />
       </Container>
     )
   }
