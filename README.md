@@ -7,6 +7,10 @@
     git https://github.com/rainitesh/coding-challenge
     cd coding-challenge
 
+#. Create .env file ::
+
+    create .env file to add your mapbox token
+
 #. Install packages ::
 
     npm install
