@@ -12,7 +12,7 @@ const MapFilterContainer = styled.div`
   z-index: 999;
   left: 10px;
   top: 100px;
-  height: 160px;
+  height: 185px;
   width: 200px;
   border-radius: 4px;
   background-color: #ffffff;
@@ -35,6 +35,7 @@ const FormContainer = styled(Form)`
 
 const CheckboxLabel = styled(Label)`
   color: rgba(17, 17, 17, 0.6);
+  line-height: 2;
 `
 
 const councilDictionary = {

@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.6.0] - 2019-04-03
+### Changed
+- fixed line height of checkbox label
+
 ## [1.5.0] - 2019-04-03
 ### Changed
 - removing unused constants folder
